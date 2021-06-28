@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-#define BOARD_HEIGHT 256
+#define BOARD_HEIGHT 25
 #define BOARD_WIDTH 6
 
 // 0 = Hard, 1 = Easy
@@ -403,7 +403,7 @@ int main() {
 
     
 
-    char pieces[20] = "J\0";
+    char pieces[20] = "\0";
 
     get_puzzle(EASY, pieces, 20);
 
